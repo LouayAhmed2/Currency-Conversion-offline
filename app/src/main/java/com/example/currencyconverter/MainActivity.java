@@ -1,4 +1,4 @@
-package com.example.currencytransformation;
+package com.example.currencyconverter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.currencyconverter.R;
 
 public class MainActivity extends AppCompatActivity {
     String[] currencyNames = {"USD", "EGP", "EUR", "KWD", "SAR"};
